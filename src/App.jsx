@@ -25,7 +25,9 @@ function IntroSection() {
       <a calssName={articleStyles.link} href="https://www.techupth.com/" target="blank">
         techupth.com
       </a>
-      <div className="bootcamp-start-time">วันเวลาเริ่มหลักสูตร คือ (วันเวลา) </div>
+      <div className="bootcamp-start-time">
+        วันเวลาเริ่มหลักสูตร คือ {getCurrentDateTime()} 
+        </div>
     </div>
   );
 }
